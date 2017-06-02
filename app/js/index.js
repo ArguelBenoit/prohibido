@@ -146,7 +146,7 @@ $('#submit-registration').click(() => {
             },
             'geometry': {
               'type': 'Point',
-              'coordinates': [ -1.473903, 43.489183 ]
+              'coordinates': [ -1.473789, 43.489048 ],
             }
           }
         ]
