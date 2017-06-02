@@ -9,8 +9,7 @@ const fs = require('fs');
 
 const email = {
 	user: fs.readFileSync('mail/.user', 'UTF-8'),
-	pass: fs.readFileSync('mail/.pass', 'UTF-8'),
-	subscribe: fs.readFileSync('mail/.subscribe', 'UTF-8')
+	pass: fs.readFileSync('mail/.pass', 'UTF-8')
 };
 
 ////////////CONFSERVER//////////////////////////
@@ -88,8 +87,24 @@ app.post('/registration', (req, res) => {
 			user: email.user,
 			pass: email.pass,
 			to: req.body.mail,
-			subject: mail.objet,
-			html: mail.subscribe
+			subject: 'Informations Prohibido',
+			html: 'Chers Clients,<br/><br/>'+
+						'Merci de l\'intêret porté a notre établissement ...<br/>'+
+						'Nous vous dévoilons aujourd\'hui l\'adresse et le mot de passe du Prohibido. Bien evidemment toutes ces informations doivent rester confidentielles.<br/><br/>'+
+						'ADRESSE : 2 Rue des Cordeliers 64100 BAYONNE<br/><br/>'+
+						'MOT DE PASSE : 1919<br/><br/>'+
+						'Cependant pour ne pas vous faciliter la tache, nous vous laissons le soin de trouver l\'endroit ou nous avons dissimulé le digicode qui vous permettra d\'ouvrir les portes de notre Bar.<br/><br/>'+
+						'Alors Soyez discret et n\'oubliez pas, ̈"Speak easy"<br/><br/>'+
+						'L\'équipe du PROHIBIDO<br/><br/>'+
+						'--<br/><br/>'+
+						'Dear clients,<br/><br/>'+
+						'Thank you for the interest brought to our establishment ...<br/>'+
+						'Today we reveal the address and password of Prohibido. Obviously all this information must remain confidential.<br/><br/>'+
+						'ADDRESS: 2 Rue des Cordeliers 64100 BAYONNE<br/><br/>'+
+						'PASSWORD: 1919<br/><br/>'+
+						'However, in order not to facilitate the task, we leave you to find the place where we have concealed the digicode which will allow you to open the doors of our Bar.<br/><br/>'+
+						'So be discreet and do not forget, ̈"Speak easy"<br/><br/>'+
+						'Team PROHIBIDO'
 		})();
 		res.end('done');
 	} else {
