@@ -22,5 +22,3 @@ $(document).ready(() => {
     });
   });
 });
-
-// color map #ccae9a
