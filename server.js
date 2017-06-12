@@ -95,7 +95,8 @@ app.post('/registration', (req, res) => {
 						'MOT DE PASSE : 1933<br/><br/>'+
 						'Cependant pour ne pas vous faciliter la tache, nous vous laissons le soin de trouver l\'endroit ou nous avons dissimulé le digicode qui vous permettra d\'ouvrir les portes de notre Bar.<br/><br/>'+
 						'Alors Soyez discret et n\'oubliez pas, ̈"Speak easy"<br/><br/>'+
-						'L\'équipe du PROHIBIDO<br/><br/>'+
+						'L\'équipe du PROHIBIDO<br/>'+
+						'09 81 90 26 26<br/><br/>'+
 						'--<br/><br/>'+
 						'Dear clients,<br/><br/>'+
 						'Thank you for the interest brought to our establishment ...<br/>'+
@@ -104,7 +105,8 @@ app.post('/registration', (req, res) => {
 						'PASSWORD: 1933<br/><br/>'+
 						'However, in order not to facilitate the task, we leave you to find the place where we have concealed the digicode which will allow you to open the doors of our Bar.<br/><br/>'+
 						'So be discreet and do not forget, ̈"Speak easy"<br/><br/>'+
-						'Team PROHIBIDO'
+						'Team PROHIBIDO<br/>'+
+						'09 81 90 26 26'
 		}, (err, res) => {
 			console.log(res);
 			console.log(err);
