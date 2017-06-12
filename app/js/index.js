@@ -129,7 +129,7 @@ $(document).ready(() => {
         var widthMap = Math.round((window.innerHeight / 100)*70 );
         $('#map-container').css('height', widthMap);
         $('#map').css('height', widthMap);
-        $('#password-map div p span').html('1919');
+        $('#password-map div p span').html('1933');
 
         mapboxgl.accessToken = 'pk.eyJ1IjoicHJvaGliaWRvIiwiYSI6ImNqMmxscjczODAwMHQyd283eGI1MTdtN3oifQ.mgVTX3Bp6O61PVWpiFMNBQ';
         var map = new mapboxgl.Map({
