@@ -103,7 +103,8 @@ app.post('/registration', (req, res) => {
 						'Thank you for the interest brought to our establishment ...<br/>'+
 						'Today we reveal the address and password of Prohibido. Obviously all this information must remain confidential.<br/><br/>'+
 						'ADDRESS: 3 bis esplanade Roland Barthes, Bayonne.<br/><br/>'+
-						'PASSWORD: 1933<br/><br/>'+
+						'PASSWORD: 1933<br/>'+
+            'We are open from Thursday to Sunday evenings from 6pm.<br/><br/>'+
 						'However, in order not to facilitate the task, we leave you to find the place where we have concealed the digicode which will allow you to open the doors of our Bar.<br/><br/>'+
 						'So be discreet and do not forget, ̈"Speak easy"<br/><br/>'+
 						'Team PROHIBIDO<br/>'+
