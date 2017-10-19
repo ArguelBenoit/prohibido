@@ -92,7 +92,8 @@ app.post('/registration', (req, res) => {
 						'Merci de l\'intêret porté a notre établissement ...<br/>'+
 						'Nous vous dévoilons aujourd\'hui l\'adresse et le mot de passe du Prohibido. Bien evidemment toutes ces informations doivent rester confidentielles.<br/><br/>'+
 						'ADRESSE : 3 bis esplanade Roland Barthes, Bayonne.<br/><br/>'+
-						'MOT DE PASSE : 1933<br/><br/>'+
+						'MOT DE PASSE : 1933<br/>'+
+            'Nous sommes ouvert du jeudi au dimanche soir dès 18h.<br/><br/>'+
 						'Cependant pour ne pas vous faciliter la tache, nous vous laissons le soin de trouver l\'endroit ou nous avons dissimulé le digicode qui vous permettra d\'ouvrir les portes de notre Bar.<br/><br/>'+
 						'Alors Soyez discret et n\'oubliez pas, ̈"Speak easy"<br/><br/>'+
 						'L\'équipe du PROHIBIDO<br/>'+
