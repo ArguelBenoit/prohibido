@@ -7,6 +7,11 @@ $(document).ready(() => {
   else
     location = 'http://'+ window.location.hostname;
 
+  /////////ALERTE/////////////////////////////////
+
+  $('.reservation-alert').click( () => alert("Nous sommes fermé tout au long du mois d’août. Notre réouverture est prévue le 6 Septembre.") );
+  // remove style on line ~ 100
+
   /////////MENU/////////////////////////////////
 
   $('#menu').on('click', e => {
