@@ -93,7 +93,7 @@ app.post('/registration', (req, res) => {
 						'Nous vous dévoilons aujourd\'hui l\'adresse et le mot de passe du Prohibido. Bien evidemment toutes ces informations doivent rester confidentielles.<br/><br/>'+
 						'ADRESSE : 3 bis esplanade Roland Barthes, Bayonne.<br/><br/>'+
 						'MOT DE PASSE : 1803<br/>'+
-            'Nous sommes ouvert du jeudi au samedi soir dès 18h.<br/><br/>'+
+            'Nous sommes ouvert du mercredi au samedi soir dès 19h.<br/><br/>'+
 						'Cependant pour ne pas vous faciliter la tache, nous vous laissons le soin de trouver l\'endroit ou nous avons dissimulé le digicode qui vous permettra d\'ouvrir les portes de notre Bar.<br/><br/>'+
 						'Alors Soyez discret et n\'oubliez pas, ̈"Speak easy"<br/><br/>'+
 						'L\'équipe du PROHIBIDO<br/>'+
@@ -104,7 +104,7 @@ app.post('/registration', (req, res) => {
 						'Today we reveal the address and password of Prohibido. Obviously all this information must remain confidential.<br/><br/>'+
 						'ADDRESS: 3 bis esplanade Roland Barthes, Bayonne.<br/><br/>'+
 						'PASSWORD: 1803<br/>'+
-            'We are open from thursday to saturday evenings from 6pm.<br/><br/>'+
+            'We are open from wednesday to saturday evenings from 7pm.<br/><br/>'+
 						'However, in order not to facilitate the task, we leave you to find the place where we have concealed the digicode which will allow you to open the doors of our Bar.<br/><br/>'+
 						'So be discreet and do not forget, ̈"Speak easy"<br/><br/>'+
 						'Team PROHIBIDO<br/>'+
